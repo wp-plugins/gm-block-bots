@@ -3,14 +3,14 @@ Contributors: mickmel, ashlealanier
 Tags: semalt, buttons-for-websites, darodar, botnet, bots, crawlers, google analytics
 Requires at least: 3.0
 Tested up to: 4.1.1
-Stable tag: 1.1.2
+Stable tag: 1.1.3
 License: GPLv2 or later
 
-This blocks semalt.com, buttons-for-websites.com and others with a 403 Forbidden message.
+This blocks semalt.com, buttons-for-website.com and others with a 403 Forbidden message so that they no longer show up in your Google Analytics stats.
 
 == Description ==
 
-This blocks semalt.com, buttons-for-websites.com and others with a 403 Forbidden message. If you have the ability to edit the .htaccess files on your server that may work better, but this is an easy fix if you can't change that file.
+This blocks semalt.com, buttons-for-website.com and others with a 403 Forbidden message so that they no longer show up in your Google Analytics stats. If you have the ability to edit the .htaccess files on your server that may work better, but this is an easy fix if you can't change that file.
 
 Once installed, this plugin will run automatically in the background; there is no options panel or anything to see in your dashboard.
 
@@ -18,7 +18,7 @@ Other sites will be added to the block list over time via updates to this plugin
 
 For more information, visit us at [GreenMellenMedia.com](http://www.greenmellenmedia.com) or find us on Twitter [@GreenMellen](http://twitter.com/greenmellen).
 
-Current list of blocked bots: 7makemoneyonline.com, aliexpress.com, bestwebsitesawards.com, buttons-for-websites.com, clicksor.com, darodar.com, ilovevitaly.co/com, semalt.com, simple-share-buttons.com, social-buttons.com
+Current list of blocked bots: 7makemoneyonline.com, aliexpress.com, bestwebsitesawards.com, blackhatworth.com, buttons-for-website.com, clicksor.com, darodar.com, econom.co, hulfingtonpost.com, ilovevitaly.co/com, kambasoft.com, priceg.com, ranksonic.org/info, savetubevideo.com, semalt.com, simple-share-buttons.com, social-buttons.com
 
 == Installation ==
 
@@ -28,8 +28,11 @@ Current list of blocked bots: 7makemoneyonline.com, aliexpress.com, bestwebsites
 
 == Changelog ==
 
+= 1.1.3 =
+* Added blackhatworth.com, econom.co, hulfingtonpost.com, kambasoft.com, priceg.com, ranksonic.org/info and savetubevideo.com
+
 = 1.1.2 =
-Added bestwebsitesawards.com and aliexpress.com
+* Added bestwebsitesawards.com and aliexpress.com
 
 = 1.1.1 =
 * Minor update for compatibility with older versions of PHP
