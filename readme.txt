@@ -3,7 +3,7 @@ Contributors: mickmel, ashlealanier
 Tags: semalt, buttons-for-websites, darodar, botnet, bots, crawlers, google analytics
 Requires at least: 3.0
 Tested up to: 4.1.1
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 License: GPLv2 or later
 
 This blocks semalt.com, buttons-for-websites.com and others with a 403 Forbidden message.
@@ -18,7 +18,7 @@ Other sites will be added to the block list over time via updates to this plugin
 
 For more information, visit us at [GreenMellenMedia.com](http://www.greenmellenmedia.com) or find us on Twitter [@GreenMellen](http://twitter.com/greenmellen).
 
-Current list of blocked bots: 7makemoneyonline.com, buttons-for-websites.com, clicksor.com, darodar.com, ilovevitaly.co/com, semalt.com, simple-share-buttons.com, social-buttons.com
+Current list of blocked bots: 7makemoneyonline.com, aliexpress.com, bestwebsitesawards.com, buttons-for-websites.com, clicksor.com, darodar.com, ilovevitaly.co/com, semalt.com, simple-share-buttons.com, social-buttons.com
 
 == Installation ==
 
@@ -27,6 +27,9 @@ Current list of blocked bots: 7makemoneyonline.com, buttons-for-websites.com, cl
 3. That's it! No options to configure; semalt and their friends will start being blocked immediately.
 
 == Changelog ==
+
+= 1.1.2 =
+Added bestwebsitesawards.com and aliexpress.com
 
 = 1.1.1 =
 * Minor update for compatibility with older versions of PHP
@@ -53,6 +56,4 @@ Absolutely! We'd love to add more to the list of bots being blocked. Please emai
 
 == Screenshots ==
 
-1. Activation link
-
-There are no other screenshots, because the plugin works silently behind the scenes.
+1. Activation link. There are no other screenshots, because the plugin works silently behind the scenes.

@@ -3,7 +3,7 @@
 Plugin Name: GM Block Bots
 Plugin URI: http://www.greenmellenmedia.com/plugins/gm-block-bots/
 Description: Blocks traffic from SEMalt, buttons-for-websites and others
-Version: 1.1.1
+Version: 1.1.2
 Author: GreenMellen Media
 Author URI: http://www.greenmellenmedia.com/
 License: GPLv2 or later
@@ -30,7 +30,7 @@ class GM_Block_Bots {
 			return;
 		}
 		
-		$bot_array = array('semalt.com', 'buttons-for-websites.com', 'darodar.com', 'social-buttons.com', '7makemoneyonline.com', 'ilovevitaly.co', 'simple-share-buttons.com', 'clicksor.com');
+		$bot_array = array('semalt.com', 'buttons-for-website.com', 'darodar.com', 'social-buttons.com', '7makemoneyonline.com', 'ilovevitaly.co', 'simple-share-buttons.com', 'clicksor.com', 'bestwebsitesawards.com', 'aliexpress.com');
 		
 		foreach($bot_array as $bots) {
 			if ( strpos( $referer, $bots ) !== false ) {
