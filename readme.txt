@@ -3,7 +3,7 @@ Contributors: mickmel, ashlealanier
 Tags: semalt, buttons-for-websites, darodar, botnet, bots, crawlers, google analytics
 Requires at least: 3.0
 Tested up to: 4.1.1
-Stable tag: 1.1
+Stable tag: 1.1.1
 License: GPLv2 or later
 
 This blocks semalt.com, buttons-for-websites.com and others with a 403 Forbidden message.
@@ -27,6 +27,9 @@ Current list of blocked bots: 7makemoneyonline.com, buttons-for-websites.com, cl
 3. That's it! No options to configure; semalt and their friends will start being blocked immediately.
 
 == Changelog ==
+
+= 1.1.1 =
+* Minor update for compatibility with older versions of PHP
 
 = 1.1 =
 * Added simple-share-buttons.com, clicksor.com, 7makemoneyonline.com and ilovevitaly.com

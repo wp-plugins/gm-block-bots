@@ -3,7 +3,7 @@
 Plugin Name: GM Block Bots
 Plugin URI: http://www.greenmellenmedia.com/plugins/gm-block-bots/
 Description: Blocks traffic from SEMalt, buttons-for-websites and others
-Version: 1.1
+Version: 1.1.1
 Author: GreenMellen Media
 Author URI: http://www.greenmellenmedia.com/
 License: GPLv2 or later
