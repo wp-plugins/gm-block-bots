@@ -32,9 +32,11 @@ class GM_Block_Bots {
 		
 		$bot_array = array('semalt.com', 'buttons-for-websites.com', 'darodar.com', 'social-buttons.com', '7makemoneyonline.com', 'ilovevitaly.co', 'simple-share-buttons.com', 'clicksor.com');
 		
-		if ( strpos( $referer, $bot_array ) !== false ) {
-			wp_die( '', '', array( 'response' => 403 ) );
-			exit;
+		foreach($bot_array as $bots) {
+			if ( strpos( $referer, $bots ) !== false ) {
+				wp_die( '', '', array( 'response' => 403 ) );
+				exit;
+			}
 		}
 	}
 }
