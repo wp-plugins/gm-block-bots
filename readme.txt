@@ -3,7 +3,7 @@ Contributors: mickmel, ashlealanier
 Tags: semalt, buttons-for-websites, darodar, botnet, bots, crawlers, google analytics
 Requires at least: 3.0
 Tested up to: 4.1.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 
 This blocks semalt.com, buttons-for-websites.com and others with a 403 Forbidden message.
@@ -18,6 +18,8 @@ Other sites will be added to the block list over time via updates to this plugin
 
 For more information, visit us at [GreenMellenMedia.com](http://www.greenmellenmedia.com) or find us on Twitter [@GreenMellen](http://twitter.com/greenmellen).
 
+Current list of blocked bots: 7makemoneyonline.com, buttons-for-websites.com, clicksor.com, darodar.com, ilovevitaly.co/com, semalt.com, simple-share-buttons.com, social-buttons.com
+
 == Installation ==
 
 1. Upload the GM Block Bots plugin to your '/wp-content/plugins/' directory.
@@ -25,6 +27,10 @@ For more information, visit us at [GreenMellenMedia.com](http://www.greenmellenm
 3. That's it! No options to configure; semalt and their friends will start being blocked immediately.
 
 == Changelog ==
+
+= 1.1 =
+* Added simple-share-buttons.com, clicksor.com, 7makemoneyonline.com and ilovevitaly.com
+
 = 1.0 =
 * Initial Release, blocking semalt.com, buttons-for-websites.com, darodar.com and social-buttons.com
 
