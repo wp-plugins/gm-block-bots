@@ -35,7 +35,7 @@ Current list of blocked bots: 7makemoneyonline.com, aliexpress.com, bestwebsites
 * Added bestwebsitesawards.com and aliexpress.com
 
 = 1.1.1 =
-* Minor update for compatibility with older versions of PHP
+* Minor update for compatibility with older versions of PHP 
 
 = 1.1 =
 * Added simple-share-buttons.com, clicksor.com, 7makemoneyonline.com and ilovevitaly.com
