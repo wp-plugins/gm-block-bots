@@ -3,7 +3,7 @@ Contributors: mickmel, ashlealanier
 Tags: semalt, buttons-for-websites, darodar, botnet, bots, crawlers, google analytics
 Requires at least: 3.0
 Tested up to: 4.1.1
-Stable tag: 1.1.3
+Stable tag: 1.1.4
 License: GPLv2 or later
 
 This blocks semalt.com, buttons-for-website.com and others with a 403 Forbidden message so that they no longer show up in your Google Analytics stats.
@@ -18,7 +18,7 @@ Other sites will be added to the block list over time via updates to this plugin
 
 For more information, visit us at [GreenMellenMedia.com](http://www.greenmellenmedia.com) or find us on Twitter [@GreenMellen](http://twitter.com/greenmellen).
 
-Current list of blocked bots: 7makemoneyonline.com, aliexpress.com, bestwebsitesawards.com, blackhatworth.com, buttons-for-website.com, clicksor.com, darodar.com, econom.co, hulfingtonpost.com, ilovevitaly.co/com, kambasoft.com, priceg.com, ranksonic.org/info, savetubevideo.com, semalt.com, simple-share-buttons.com, social-buttons.com
+Current list of blocked bots: 4webmasters.org, 7makemoneyonline.com, aliexpress.com, anticrawler.org, bestsub.com, bestwebsitesawards.com, blackhatworth.com, buttons-for-website.com, clicksor.com, darodar.com, econom.co, hulfingtonpost.com, ilovevitaly.co/com, kambasoft.com, priceg.com, ranksonic.org/info, savetubevideo.com, semalt.com, simple-share-buttons.com, social-buttons.com
 
 == Installation ==
 
@@ -27,6 +27,9 @@ Current list of blocked bots: 7makemoneyonline.com, aliexpress.com, bestwebsites
 3. That's it! No options to configure; semalt and their friends will start being blocked immediately.
 
 == Changelog ==
+
+= 1.1.4 =
+Added 4webmasters.org, anticrawler.org and bestsub.com
 
 = 1.1.3 =
 * Added blackhatworth.com, econom.co, hulfingtonpost.com, kambasoft.com, priceg.com, ranksonic.org/info and savetubevideo.com
