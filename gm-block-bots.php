@@ -3,7 +3,7 @@
 Plugin Name: GM Block Bots
 Plugin URI: http://www.greenmellenmedia.com/plugins/gm-block-bots/
 Description: Blocks traffic from SEMalt, buttons-for-website and others
-Version: 1.1.5
+Version: 1.1.6
 Author: GreenMellen Media
 Author URI: http://www.greenmellenmedia.com/
 License: GPLv2 or later
@@ -30,7 +30,7 @@ class GM_Block_Bots {
 			return;
 		}
 		
-		$bot_array = array('semalt.com', 'buttons-for-website.com', 'darodar.com', 'social-buttons.com', '7makemoneyonline.com', 'ilovevitaly.co', 'simple-share-buttons.com', 'clicksor.com', 'bestwebsitesawards.com', 'aliexpress.com', 'savetubevideo.com', 'kambasoft.com', 'priceg.com', 'blackhatworth.com', 'hulfingtonpost.com', 'econom.co', 'ranksonic.org', 'ranksonic.info', '4webmasters.org', 'anticrawler.org', 'bestsub.com', 'o-o-6-o-o.com', 'sitequest.ru');
+		$bot_array = array('semalt.com', 'buttons-for-website.com', 'darodar.com', 'social-buttons.com', '7makemoneyonline.com', 'ilovevitaly.co', 'simple-share-buttons.com', 'clicksor.com', 'bestwebsitesawards.com', 'aliexpress.com', 'savetubevideo.com', 'kambasoft.com', 'priceg.com', 'blackhatworth.com', 'hulfingtonpost.com', 'econom.co', 'ranksonic.org', 'ranksonic.info', '4webmasters.org', 'anticrawler.org', 'bestsub.com', 'o-o-6-o-o.com', 'sitequest.ru', 'search.tb.ask.com', 'wow.com', 'adviceforum.info', 'makemoneyonline.com', 'best-seo-solution.com');
 		
 		foreach($bot_array as $bots) {
 			if ( strpos( $referer, $bots ) !== false ) {

@@ -3,7 +3,7 @@ Contributors: mickmel, ashlealanier
 Tags: semalt, buttons-for-websites, darodar, botnet, bots, crawlers, google analytics
 Requires at least: 3.0
 Tested up to: 4.1.1
-Stable tag: 1.1.5
+Stable tag: 1.1.6
 License: GPLv2 or later
 
 This blocks semalt.com, buttons-for-website.com and others with a 403 Forbidden message so that they no longer show up in your Google Analytics stats.
@@ -18,7 +18,7 @@ Other sites will be added to the block list over time via updates to this plugin
 
 For more information, visit us at [GreenMellenMedia.com](http://www.greenmellenmedia.com) or find us on Twitter [@GreenMellen](http://twitter.com/greenmellen).
 
-Current list of blocked bots: 4webmasters.org, 7makemoneyonline.com, aliexpress.com, anticrawler.org, bestsub.com, bestwebsitesawards.com, blackhatworth.com, buttons-for-website.com, clicksor.com, darodar.com, econom.co, hulfingtonpost.com, ilovevitaly.co/com, kambasoft.com, o-o-6-o-o.com, priceg.com, ranksonic.org/info, savetubevideo.com, semalt.com, simple-share-buttons.com, sitequest.ru, social-buttons.com
+Current list of blocked bots: 4webmasters.org, 7makemoneyonline.com, adviceforum.info, aliexpress.com, anticrawler.org, best-seo-solution.com, bestsub.com, bestwebsitesawards.com, blackhatworth.com, buttons-for-website.com, clicksor.com, darodar.com, econom.co, hulfingtonpost.com, ilovevitaly.co/com, kambasoft.com, makemoneyonline.com, o-o-6-o-o.com, priceg.com, ranksonic.org/info, savetubevideo.com, search.tb.ask.com, semalt.com, simple-share-buttons.com, sitequest.ru, social-buttons.com, wow.com
 
 == Installation ==
 
@@ -27,6 +27,9 @@ Current list of blocked bots: 4webmasters.org, 7makemoneyonline.com, aliexpress.
 3. That's it! No options to configure; semalt and their friends will start being blocked immediately.
 
 == Changelog ==
+
+= 1.1.6 =
+* Added search.tb.ask.com, wow.com, adviceforum.info, makemoneyonline.com and best-seo-solution.com
 
 = 1.1.5 =
 * Added o-o-6-o-o.com and sitequest.ru
@@ -57,7 +60,7 @@ That is by design. This is a silent plugin, and there are no options to configur
 
 = The bots are still getting through =
 
-This plugin only blocks them based on their http_referer, which may not catch everything. If possible, using .htaccess on your server to block them as that should be more effective.
+This plugin only blocks them based on their http_referer, which may not catch everything. If possible, using .htaccess on your server to block them as that should be more effective. In addition, some bots ping Google Analytics directly (without ever visiting your site) and the only way to stop them is via filters in Google Analytics.
 
 = Can you also block another bot? =
 
